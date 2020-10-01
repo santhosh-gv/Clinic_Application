@@ -1,0 +1,26 @@
+<div id="login-container" style="max-width: 1000px">
+  <div id="header">
+    <h2 >Login</h2>
+  </div>
+  <div id="body" style="display: flex;">
+    <div id="picture">
+      <img src="assets/home_page_img.png" style="height: 400px;">
+    </div>
+    <mat-divider [vertical]="true" style="color: grey;"></mat-divider>
+    <div id="form">
+      <div id="username">
+        <label for="username">Username</label>
+        <input type="text" formControlName="username" class="form-control" />  
+      </div>
+      <br>
+      <div id="password">
+        <label for="password">Password</label>
+        <input type="password" formControlName="password" class="form-control"/>  
+      </div>
+      <br>
+      <div id="submit">
+        <button mat-raised-button color="primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
