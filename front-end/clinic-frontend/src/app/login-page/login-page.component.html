@@ -1,13 +1,13 @@
-<div id="login-container" style="max-width: 1000px">
+<div id="login-container" style="width: 1000px; border: solid red;">
   <div id="header">
     <h2 >Login</h2>
   </div>
   <div id="body" style="display: flex;">
-    <div id="picture">
-      <img src="assets/home_page_img.png" style="height: 400px;">
+    <div id="picture" style="width: 500px;">
+      <img src="assets/home_page_img.png" style="width: 500px;">
     </div>
     <mat-divider [vertical]="true" style="color: grey;"></mat-divider>
-    <div id="form">
+    <div id="form" style="width: 500px;">
       <div id="username">
         <label for="username">Username</label>
         <input type="text" formControlName="username" class="form-control" />  
@@ -20,6 +20,12 @@
       <br>
       <div id="submit">
         <button mat-raised-button color="primary">Submit</button>
+      </div>
+      <div id="sign_up">
+        <a href="">        New User? Sign Up here!        </a>
+      </div>
+      <div id="forgot_password">
+        <a href="">Forgot Password?</a>
       </div>
     </div>
   </div>
